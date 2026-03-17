@@ -1,0 +1,7 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"><modelVersion>4.0.0</modelVersion>
+<parent><groupId>com.example</groupId><artifactId>interfaces</artifactId><version>0.0.1-SNAPSHOT</version></parent>
+<artifactId>interfaces-messaging</artifactId>
+<dependencies>
+<dependency><groupId>com.example</groupId><artifactId>application</artifactId><version>${project.version}</version></dependency>
+<dependency><groupId>org.springframework.kafka</groupId><artifactId>spring-kafka</artifactId></dependency>
+</dependencies></project>

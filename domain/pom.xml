@@ -1,0 +1,9 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <parent><groupId>com.example</groupId><artifactId>spring-boot-starter-java</artifactId><version>0.0.1-SNAPSHOT</version></parent>
+  <artifactId>domain</artifactId>
+  <dependencies>
+    <dependency><groupId>com.example</groupId><artifactId>shared-kernel</artifactId><version>${project.version}</version></dependency>
+    <dependency><groupId>org.junit.jupiter</groupId><artifactId>junit-jupiter</artifactId><version>${junit.version}</version><scope>test</scope></dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"><modelVersion>4.0.0</modelVersion>
+<parent><groupId>com.example</groupId><artifactId>spring-boot-starter-java</artifactId><version>0.0.1-SNAPSHOT</version></parent>
+<artifactId>boot</artifactId>
+<dependencies>
+<dependency><groupId>com.example</groupId><artifactId>shared-kernel</artifactId><version>${project.version}</version></dependency>
+<dependency><groupId>com.example</groupId><artifactId>domain</artifactId><version>${project.version}</version></dependency>
+<dependency><groupId>com.example</groupId><artifactId>application</artifactId><version>${project.version}</version></dependency>
+<dependency><groupId>com.example</groupId><artifactId>infra-persistence</artifactId><version>${project.version}</version></dependency>
+<dependency><groupId>com.example</groupId><artifactId>infra-messaging</artifactId><version>${project.version}</version></dependency>
+<dependency><groupId>com.example</groupId><artifactId>infra-external</artifactId><version>${project.version}</version></dependency>
+<dependency><groupId>com.example</groupId><artifactId>interfaces-rest</artifactId><version>${project.version}</version></dependency>
+<dependency><groupId>com.example</groupId><artifactId>interfaces-messaging</artifactId><version>${project.version}</version></dependency>
+<dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-webflux</artifactId></dependency>
+<dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-actuator</artifactId></dependency>
+<dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-test</artifactId><scope>test</scope></dependency>
+</dependencies>
+<build><plugins><plugin><groupId>org.springframework.boot</groupId><artifactId>spring-boot-maven-plugin</artifactId></plugin></plugins></build>
+</project>

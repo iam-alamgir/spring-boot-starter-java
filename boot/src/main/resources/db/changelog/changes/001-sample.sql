@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS sample_entity (
+    id VARCHAR(64) PRIMARY KEY,
+    email VARCHAR(255) NOT NULL
+);

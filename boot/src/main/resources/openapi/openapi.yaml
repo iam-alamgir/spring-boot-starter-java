@@ -1,0 +1,28 @@
+openapi: 3.0.3
+info:
+  title: Starter API
+  version: 1.0.0
+paths:
+  /api/v1/samples:
+    post:
+      operationId: createSample
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [id, email]
+              properties:
+                id: { type: string }
+                email: { type: string, format: email }
+      responses:
+        '200':
+          description: created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id: { type: string }
+                  email: { type: string }
