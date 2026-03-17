@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-boot-starter-java
+  threads:
+    virtual:
+      enabled: true
+management:
+  tracing:
+    sampling:
+      probability: 1.0

@@ -1,0 +1,7 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <parent><groupId>com.example</groupId><artifactId>spring-boot-starter-java</artifactId><version>0.0.1-SNAPSHOT</version></parent>
+  <artifactId>infra</artifactId>
+  <packaging>pom</packaging>
+  <modules><module>persistence</module><module>messaging</module><module>external</module></modules>
+</project>
